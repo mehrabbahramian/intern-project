@@ -1,0 +1,97 @@
+# Editor
+.vscode/
+.vscode-test/
+.idea
+
+# git
+.git
+
+# Logs
+logs
+*.log
+npm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+*.pem
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# local env files
+.env
+.env.*
+!.env.template
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cache
+.npm
+.cache
+.parcel-cache
+.temp
+.docusaurus
+.fusebox/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Dependency
+node_modules/
+jspm_packages/
+web_modules/
+bower_components/
+.pnp
+.pnp.js
+
+# test
+test.js
+test.jsx
+test.ts
+test.tsx
+/coverage
+*.lcov
+
+# Output of 'npm pack'
+*.tgz
+
+# Package Json
+package-lock.json
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn-integrity
+.pnp.*
+
+# Build
+build/
+out/
+bin/
+dist/
+.node_repl_history/
+.next/
+.nuxt/
+.vuepress/dist
+.nyc_output
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

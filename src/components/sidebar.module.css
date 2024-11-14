@@ -1,0 +1,138 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    width: 100%;
+    max-width: 270px;
+    height: 650px;
+}
+
+.usernameBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 15px 5px 5px;
+    gap: 12px;
+    background-image: linear-gradient(90deg, #714EE3 -0.05%, #695EE0 18.96%, #5489DA 56.97%, #38C0D1 99.98%);
+    background-size: contain;
+    width: 100%;
+}
+
+.usernameBG {
+    background-color: #00BDBD;
+    mix-blend-mode: hard-light;
+    opacity: 85%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.usernameBox h3 {
+    font-size: 22px;
+    padding: 10px 34px;
+    color: #fff;
+}
+
+.usernameIMG {
+    mix-blend-mode: hard-light;
+}
+
+.link {
+    display: flex;
+    width: 100%;
+}
+
+.sidebarLinks {
+    background-color: #fff;
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebarLinks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.sidebarLinkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    z-index: 2;
+}
+
+.sidebarSubLinks {
+    background-color: #d6e9f5;
+    box-shadow: 0px 3px 6px 0px #C7CEC8BF inset;
+}
+
+.sidebarLink {
+    background-color: #4BD9ED;
+    box-shadow: 0px 3px 6px 0px #C7CEC8BF inset;
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.subLinkContainer {
+    background-color: #CECECE;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .3s ease;
+}
+
+.sidebarSubLinks:hover .subLinkContainer {
+    max-height: 200px;
+    transition: all .3s ease;
+}
+
+.subLinks {
+    align-items: flex-start;
+    gap: 0 !important;
+}
+
+.subLink {
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.subLink a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: start;
+    gap: 8px;
+    text-align: start;
+}
+
+.subLink a img {
+    padding: 7px;
+    height: 100%;
+    background-color: #d6e9f5;
+    box-shadow: 0px 3px 6px 0px #C7CEC8BF inset;
+    width: 40px;
+    height: 40px;
+}
+
+.clockIcon {
+    box-shadow: 0px 3px 6px 0px #C7CEC8BF inset;
+    padding: 7px;
+    height: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+    .sidebarContainer {
+        max-width: 308px;
+    }
+}

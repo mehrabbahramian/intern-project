@@ -1,0 +1,45 @@
+.testsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: start;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.headerText {
+    background: linear-gradient(116.12deg, #00BDBD 27.88%, rgba(0, 189, 189, 0) 98.75%);
+    backdrop-filter: opacity(30%);
+    box-shadow: -14px 2px 26px 0px #00000026 inset;
+    mix-blend-mode: multiply;
+    color: #797979;
+    padding: 12px 32px;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+.headerText span {
+    color: #14969E;
+}
+
+.logoImg{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.cardsHolder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+}
